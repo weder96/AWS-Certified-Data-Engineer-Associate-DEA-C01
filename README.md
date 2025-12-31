@@ -14,14 +14,120 @@ This study guide will help you pass the newer [AWS Certified Data Engineer - Ass
 
 4. Tutorials Dojo's [AWS Certified Data Engineer - Associate](https://tutorialsdojo.com/new-aws-certified-data-engineer-associate-dea-c01/) Overview
 
-5. AWS Certified Data Engineer - Associate (DEA-C01) [Full Course In 285min] [AWS Certified Solutions Architect](https://www.youtube.com/watch?v=6G0bLDIcO7Y)
+5. Tutorials Dojo's Exam Free[AWS Certified Data Engineer - Associate - Free - 20 Questions](https://portal.tutorialsdojo.com/courses/free-aws-certified-data-engineer-associate-practice-exam-sampler/)
+
+6. AWS Certified Data Engineer - Associate (DEA-C01) [Full Course In 285min] [AWS Certified Solutions Architect](https://www.youtube.com/watch?v=6G0bLDIcO7Y)
 
 
-Notes: If at any point you find yourself feeling uncertain of your progress and in need of more time, you can postpone your AWS exam date. Be sure to also keep up with the ongoing discussions in [r/AWSCertifications](https://www.reddit.com/r/AWSCertifications/) as you will find relevant exam tips, studying material, and advice from other exam takers. 
+## **Important - Learning**
+
+[orchestrate-an-etl-pipeline](https://docs.aws.amazon.com/pdfs/prescriptive-guidance/latest/patterns/prescriptive-guidance.pdf#orchestrate-an-etl-pipeline-with-validation-transformation-and-partitioning-using-aws-step-functions), last accessed on 30 December 2025.
+[What is a Data Lake?](https://aws.amazon.com/what-is/data-lake/)
+[Learn more about S3 bucket naming rules](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)
+[AWS CloudShell service](https://us-east-2.console.aws.amazon.com/cloudshell/home)
+[AWS Management Console - IAM Policies](https://console.aws.amazon.com/iamv2/home?#/policies)
+
+## **Athena**
+
+[Considerations and Limitations for CTAS Queries](https://docs.aws.amazon.com/athena/latest/ug/considerations-ctas.html)
+[Airbnb blog post about the problem of small files](https://medium.com/airbnb-engineering/on-spark-hive-and-small-files-an-in-depth-look-at-spark-partitioning-strategies-a9a364f908)
+[Partitioning and bucketing in Athena](https://docs.aws.amazon.com/athena/latest/ug/ctas-partitioning-and-bucketing.html)
+[Partition Projection with Amazon Athena](https://docs.aws.amazon.com/athena/latest/ug/partition-projection.html)
+[Using EXPLAIN and EXPLAIN ANALYSE in Athena](https://docs.aws.amazon.com/athena/latest/ug/athena-explain-statement.html)
+[Functions in Amazon Athena](https://docs.aws.amazon.com/athena/latest/ug/functions.html)
+[Performance Tuning in Athena](https://docs.aws.amazon.com/athena/latest/ug/performance-tuning.html)
+[Using Amazon Athena Federated Query](https://docs.aws.amazon.com/athena/latest/ug/connect-to-a-data-source.html)
+[Athena Query Federation SDK](https://docs.aws.amazon.com/athena/latest/ug/connect-data-source-federation-sdk.html)
+[Explore your data lake using Amazon Athena for Apache Spark](https://aws.amazon.com/blogs/big-data/explore-your-data-lake-using-amazon-athena-for-apache-spark/)
+[Using Athena ACID transactions](https://docs.aws.amazon.com/athena/latest/ug/acid-transactions.html)
+[Tag-Based IAM Access Control Policies](https://docs.aws.amazon.com/athena/latest/ug/tags-access-control.html)
+
+
+## **SageMaker Components**
+- [Amazon SageMaker](https://aws.amazon.com/sagemaker/)
+- [Amazon SageMaker Ground Truth](https://aws.amazon.com/sagemaker/data-labeling/)
+- [Amazon SageMaker Data Wrangler](https://aws.amazon.com/sagemaker/data-wrangler)
+- [Amazon SageMaker Clarify](https://aws.amazon.com/sagemaker/clarify)
+- [Amazon SageMaker Notebooks](https://aws.amazon.com/sagemaker/notebooks/)
+- [Amazon SageMaker Autopilot](https://aws.amazon.com/sagemaker/autopilot)
+- [Amazon SageMaker JumpStart](https://aws.amazon.com/sagemaker/jumpstart)
+- [Amazon SageMaker Experiments](https://aws.amazon.com/sagemaker/experiments/)
+- [Amazon SageMaker Model Monitor](https://aws.amazon.com/sagemaker/model-monitor/)
+
+### **AWS Serivces for AI**
+- [Amazon Transcribe](https://aws.amazon.com/transcribe/)
+- [Amazon Textract](https://aws.amazon.com/textract/)
+- [Amazon Comprehend](https://aws.amazon.com/comprehend/)
+- [Amazon Rekognition](https://aws.amazon.com/rekognition/)
+- [Amazon Forecast](https://aws.amazon.com/forecast/)
+- [Amazon Fraud Detector](https://aws.amazon.com/fraud-detector/)
+- [Amazon Personalize](https://aws.amazon.com/personalize/)
+
+### **AWS Services for Generative AI**
+- [Blog post - Get started with generative AI on AWS using Amazon SageMaker JumpStart](https://aws.amazon.com/blogs/machine-learning/get-started-with-generative-ai-on-aws-using-amazon-sagemaker-jumpstart/)
+- [Amazon Bedrock](https://aws.amazon.com/bedrock/)
+- [Amazon Titan](https://aws.amazon.com/bedrock/titan/)
+
+
+### **Books**
+
+<img src="./images/books/StudyGuide.png" width="200px">
+<img src="./images/books/AWSStudyGuide.png" width="200px">
+<img src="./images/books/DataGarethEagar.png" width="200px">
+<img src="./images/books/Fundamentals.png" width="200px">
+
+
+
+
+### **Whitepapers**
+
+This whitepaper has examined some tools available on AWS for big data analytics. This paper provides a good reference point when starting to design your big data applications. However, there are additional aspects you should consider when selecting the right tools for your specific use case. In general, each analytical workload has certain characteristics and requirements that dictate which tool to use, such as:
+
+- How quickly do you need analytic results: in real time, in seconds, or is an hour a more appropriate time frame?
+- How much value will these analytics provide your organization and what budget constraints exist?
+- How large is the data and what is its growth rate?
+- How is the data structured?
+- What integration capabilities do the producers and consumers have?
+- How much latency is acceptable between the producers and consumers?
+- What is the cost of downtime or how available and durable does the solution need to be?
+- Is the analytic workload consistent or elastic?
+
+**Reading**
+
+[big-data-analytics-options](https://docs.aws.amazon.com/whitepapers/latest/big-data-analytics-options/welcome.html)
+
+
+**Notes:** If at any point you find yourself feeling uncertain of your progress and in need of more time, you can postpone your AWS exam date. Be sure to also keep up with the ongoing discussions in [r/AWSCertifications](https://www.reddit.com/r/AWSCertifications/) as you will find relevant exam tips, studying material, and advice from other exam takers. 
 
 Before experimenting with AWS, it's very important to be sure that you know what is [free tier](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all) and what isn't. 
 
 Relevant Free Tier FAQs can be found here. Finally, Udemy often has their courses go on sale from time to time. It might be worth waiting to purchase either the Tutorial Dojo practice exam or Stephane Maarek's course depending on how urgently you need the content.
+
+
+To level up your NotebookLM as a DEA-C01 instructor, the "Golden Tip" isn't just about what the AI knows, but how it cross-references your data.
+
+Here is the translated version ready for your guide:
+
+🌟 Golden Tip: The "Cross-Source Synthesis" Power
+
+- The greatest advantage of using NotebookLM as an instructor is not just its ability to explain concepts, but its power to identify gaps and specific connections between the official Exam Guide and technical whitepapers. To get the most out of it, use the Comparative Scenario Analysis strategy.
+
+- How to apply it: Don't just ask "Explain AWS Glue." Instead, after uploading the Exam Guide and an architecture Whitepaper, use the following prompt:
+
+
+> "Professor, based on the Exam Guide, identify which AWS Glue features are considered 'In-Scope' for the DEA-C01 and cross-reference them with the 'Best Practices' document. 
+>
+> Create a comparative table showing: Feature / When to Use / Cost or Performance Limit that I must memorize for the exam."
+
+
+**Why this works:**
+
+**Exam Focus:** You avoid wasting time studying service functions that are "Out-of-Scope."
+
+**Real-World Context:** you learn the "AWS Way" (Cost vs. Performance), which is the foundation of the "Choose the best solution" questions.
+
+**Source Citations:** NotebookLM will place small numbers (citations) next to the answer. Click them to see exactly which page of the original PDF that rule comes from. This strengthens your visual memory of the official documentation.
+
 
 **AWS Certified Data Engineer - Associate (DEAC01) Exam Guide**
 
@@ -30,20 +136,20 @@ The AWS Certified Data Engineer - Associate (DEA-C01) exam validates a candidate
 Note: AWS exam guides are periodically reviewed and revised to ensure that each certification exam tests skills and AWS services and features that are current and relevant for the job role(s) that the certification is designed to target. Exam guide revisions will be published at least one month before changes are reflected on your exam. Check the Revisions section for a summary of changes.
 
 
-### Topics
-- Introduction
-- Target Candidate Description
-- Exam content
-- Content outline
-- AWS Services for the Exam
-- Content Domain 1: Data Ingestion and Transformation
-- Content Domain 2: Data Store Management
-- Content Domain 3: Data Operations and Support
-- Content Domain 4: Data Security and Governance
-- In-Scope AWS Services
-- Out-of-Scope AWS Services
-- Revisions
-- Survey
+### Topics 
+- [Introduction](#introduction)
+- [Target Candidate Description](#target-candidate-description)
+- [Exam content](#exam-content)
+- [Content outline](#content-outline)
+- [AWS Services for the Exam](#aws-services-for-the-exam)
+- [Content Domain 1: Data Ingestion and Transformation](#content-domain-1-data-ingestion-and-transformation)
+- [Content Domain 2: Data Store Management](#content-domain-2-data-store-management)
+- [Content Domain 3: Data Operations and Support](#content-domain-3-data-operations-and-support)
+- [Content Domain 4: Data Security and Governance](#content-domain-4-data-security-and-governance)
+- [In-Scope AWS Services](#in-scope-aws-services)
+- [Out-of-Scope AWS Services](#out-of-scope-aws-services)
+- [Revisions](#revisions)
+- [Survey](#survey)
 
 
 ### Introduction
@@ -91,18 +197,20 @@ This list is non-exhaustive. These tasks are out of scope for the exam:
 ### Response types
 
 There are two types of questions on the exam:
-- Multiple choice: Has one correct response and three incorrect responses (distractors)
-- Multiple response: Has two or more correct responses out of five or more response options
+- **Multiple choice:** Has one correct response and three incorrect responses (distractors)
+- **Multiple response:** Has two or more correct responses out of five or more response options
 
 Select one or more responses that best complete the statement or answer the question.
 Distractors, or incorrect answers, are response options that a candidate with incomplete knowledge or skill might choose. Distractors are generally plausible responses that match the content area.
-Unanswered questions are scored as incorrect; there is no penalty for guessing. The exam includes 50 questions that affect your score.
-The exam includes 15 unscored questions that do not affect your score. AWS collects information about performance on these unscored questions to evaluate these questions for future use as scored questions. These unscored questions are not identified on the exam
 
+Unanswered questions are scored as incorrect; there is no penalty for guessing. The exam includes **50 questions that affect your score**.
+The exam includes **15 unscored questions that do not affect your score**. AWS collects information about performance on these unscored questions to evaluate these questions for future use as scored questions. 
 
-The AWS Certified Data Engineer - Associate (DEA-C01) exam has a pass or fail designation. The exam is scored against a minimum standard established by AWS professionals who follow certification industry best practices and guidelines.
+These unscored questions are not identified on the exam
 
-Your results for the exam are reported as a scaled score of 100–1,000. The minimum passing score is 720. Your score shows how you performed on the exam as a whole and whether you passed. Scaled scoring models help equate scores across multiple exam forms that might have slightly
+The **AWS Certified Data Engineer - Associate (DEA-C01)** exam has a pass or fail designation. The exam is scored against a minimum standard established by AWS professionals who follow certification industry best practices and guidelines.
+
+Your results for the exam are reported as a scaled score of **100–1,000**. The minimum passing score is **720**. Your score shows how you performed on the exam as a whole and whether you passed. Scaled scoring models help equate scores across multiple exam forms that might have slightly
 different difficulty levels.
 
 Your score report could contain a table of classifications of your performance at each section level. The exam uses a compensatory scoring model, which means that you do not need to achieve a passing score in each section. You need to pass only the overall exam.
@@ -110,9 +218,8 @@ Your score report could contain a table of classifications of your performance a
 Each section of the exam has a specific weighting, so some sections have more questions than other sections have. The table of classifications contains general information that highlights your strengths and weaknesses. Use caution when you interpret section-level feedback.
 
 
-
 ### **Unscored content**
-The exam includes 15 unscored questions that do not affect your score. AWS collects information about performance on these unscored questions to evaluate these questions for future use as scored questions. These unscored questions are not identified on the exam.
+The exam includes **15 unscored questions that do not affect your score**. AWS collects information about performance on these unscored questions to evaluate these questions for future use as scored questions. These unscored questions are not identified on the exam.
 
 
 ### **Exam results**
@@ -131,10 +238,10 @@ This exam guide includes weightings, content domains, and task statements for th
 
 The exam has the following content domains and weightings:
 
-- Content Domain 1: Data Ingestion and Transformation (34% of scored content)
-- Content Domain 2: Data Store Management (26% of scored content)
-- Content Domain 3: Data Operations and Support (22% of scored content)
-- Content Domain 4: Data Security and Governance (18% of scored content)
+- Content Domain 1: **Data Ingestion and Transformation (34% of scored content)**
+- Content Domain 2: **Data Store Management (26% of scored content)**
+- Content Domain 3: **Data Operations and Support (22% of scored content)**
+- Content Domain 4: **Data Security and Governance (18% of scored content)**
 
 ### **AWS Services for the Exam**
 
@@ -143,14 +250,14 @@ The AWS Certified Data Engineer - Associate exam covers specific AWS services th
 For detailed information about the AWS services covered in the exam, see the following section:
 - In-Scope AWS Services
 
-## **Content Domain 1: Data Ingestion and Transformation **
+## Content Domain 1: Data Ingestion and Transformation
 
 ### **Tasks**
 
-- Task 1.1: Perform data ingestion
-- Task 1.2: Transform and process data
-- Task 1.3: Orchestrate data pipelines
-- Task 1.4: Apply programming concepts
+- [Task 1.1: Perform data ingestion](#task-11-perform-data-ingestion)
+- [Task 1.2: Transform and process data](#task-12-transform-and-process-data)
+- [Task 1.3: Orchestrate data pipelines](#task-13-orchestrate-data-pipelines)
+- [Task 1.4: Apply programming concepts](#task-14-apply-programming-concepts)
 
 ### **Task 1.1: Perform data ingestion**
 
@@ -206,10 +313,10 @@ For detailed information about the AWS services covered in the exam, see the fol
 
 ### **Tasks**
 
-- Task 2.1: Choose a data store
-- Task 2.2: Understand data cataloging systems
-- Task 2.3: Manage the lifecycle of data
-- Task 2.4: Design data models and schema evolution
+- [Task 2.1: Choose a data store](#task-21-choose-a-data-store)
+- [Task 2.2: Understand data cataloging systems](#task-22-understand-data-cataloging-systems)
+- [Task 2.3: Manage the lifecycle of data](#task-23-manage-the-lifecycle-of-data)
+- [Task 2.4: Design data models and schema evolution](#task-24-design-data-models-and-schema-evolution)
 
 
 ### **Task 2.1: Choose a data store**
@@ -239,7 +346,9 @@ For detailed information about the AWS services covered in the exam, see the fol
 - Skill 2.3.3: Expire data when it reaches a specific age by using S3 Lifecycle policies.
 - Skill 2.3.4: Manage S3 versioning and DynamoDB TTL.
 - Skill 2.3.5: Delete data to meet business and legal requirements.
-- Skill 2.3.6: Protect data with appropriate resiliency and availability. Task 2.4: Design data models and schema evolution
+- Skill 2.3.6: Protect data with appropriate resiliency and availability. 
+
+### **Task 2.4: Design data models and schema evolution**
 - Skill 2.4.1: Design schemas for Amazon Redshift, DynamoDB, and Lake Formation.
 - Skill 2.4.2: Address changes to the characteristics of data.
 - Skill 2.4.3: Perform schema conversion (for example, by using the AWS Schema Conversion Tool [AWS SCT] and AWS Database Migration Service [AWS DMS] Schema Conversion).
@@ -252,11 +361,10 @@ For detailed information about the AWS services covered in the exam, see the fol
 
 ### **Tasks**
 
-- Task 3.1: Automate data processing by using AWS services
-- Task 3.2: Analyze data by using AWS services
-- Task 3.3: Maintain and monitor data pipelines
-- Task 3.4: Ensure data quality
-
+- [Task 3.1: Automate data processing by using AWS services](#task-31-automate-data-processing-by-using-aws-services)
+- [Task 3.2: Analyze data by using AWS services](#task-32-analyze-data-by-using-aws-services)
+- [Task 3.3: Maintain and monitor data pipelines](#task-33-maintain-and-monitor-data-pipelines)
+- [Task 3.4: Ensure data quality](#task-34-ensure-data-quality)
 
 ### **Task 3.1: Automate data processing by using AWS services**
 
@@ -306,11 +414,11 @@ For detailed information about the AWS services covered in the exam, see the fol
 
 ### **Tasks**
 
-- Task 4.1: Apply authentication mechanisms
-- Task 4.2: Apply authorization mechanisms
-- Task 4.3: Ensure data encryption and masking
-- Task 4.4: Prepare logs for audit
-- Task 4.5: Understand data privacy and governance
+- [Task 4.1: Apply authentication mechanisms](#task-41-apply-authentication-mechanisms)
+- [Task 4.2: Apply authorization mechanisms](#task-42-apply-authorization-mechanisms)
+- [Task 4.3: Ensure data encryption and masking](#task-43-ensure-data-encryption-and-masking)
+- [Task 4.4: Prepare logs for audit](#task-44-prepare-logs-for-audit)
+- [Task 4.5: Understand data privacy and governance](#task-45-understand-data-privacy-and-governance)
 
 ### **Task 4.1: Apply authentication mechanisms**
 
@@ -364,21 +472,20 @@ The following list contains AWS services and features that are in scope for the 
 
 ## Topics
 
-
-- Analytics
-- Application Integration
-- Cloud Financial Management
-- Compute
-- Containers
-- Database
-- Developer Tools
-- Web and Mobile
-- Machine Learning
-- Management and Governance
-- Migration and Transfer
-- Networking and Content Delivery
-- Security, Identity, and Compliance
-- Storage
+- [Analytics](#analytics)
+- [Application Integration](#application-integration)
+- [Cloud Financial Management](#cloud-financial-management)
+- [Compute](#compute)
+- [Containers](#containers)
+- [Database](#database)
+- [Developer Tools](#developer-tools)
+- [Web and Mobile](#web-and-mobile)
+- [Machine Learning](#machine-learning)
+- [Management and Governance](#management-and-governance)
+- [Migration and Transfer](#migration-and-transfer)
+- [Networking and Content Delivery](#networking-and-content-delivery)
+- [Security, Identity, and Compliance](#security-identity-and-compliance)
+- [Storage](#storage)
 
 ### Analytics
 
